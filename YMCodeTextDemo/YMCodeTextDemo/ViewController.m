@@ -24,12 +24,12 @@
     imageView.image = [UIImage imageNamed:@"timg.png"];
     [self.view addSubview:imageView];
     
-    CGFloat x = 30;
+    CGFloat x = 20;
     CGFloat w = SW - x * 2;
     CGFloat h = 50;
     CGFloat y = (SH - 50) / 2 ;
     
-    YMCodeTextView *code2View = [[YMCodeTextView alloc] initWithCount:6 margin:20];
+    YMCodeTextView *code2View = [[YMCodeTextView alloc] initWithCount:6 itemWidth:50 itemHeight:50 margin:6];
     code2View.frame = CGRectMake(x, y, w, h);
     [self.view addSubview:code2View];
     

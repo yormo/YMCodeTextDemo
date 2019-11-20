@@ -11,7 +11,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface YMCodeTextView : UIView
 
-- (instancetype)initWithCount:(NSInteger)count margin:(CGFloat)margin;
+- (instancetype)initWithCount:(NSInteger)count
+                    itemWidth:(CGFloat)width
+                    itemHeight:(CGFloat)height
+                       margin:(CGFloat)margin;
 
 @end
 
